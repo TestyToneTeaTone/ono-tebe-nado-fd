@@ -34,12 +34,12 @@ img {
 }
 
 .header {
-  margin-top: 92px;
+  margin-top: 90px;
   padding: 0 50px;
 }
 
 .cover {
-  background: url(/images/cover.jpg);
+  background: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

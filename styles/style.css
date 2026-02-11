@@ -7,8 +7,12 @@
 
 .header__links-list {
   display: flex;
-  gap: 30px;
+  gap: 32px;
   list-style: circle;
+}
+.header__links-list-item {
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
@@ -41,7 +45,7 @@
 
 .header__address {
   justify-self: end;
-  max-width: 240px
+  max-width: 240px;
 }
 
 /* End style header */
@@ -55,34 +59,36 @@
   color: #fff;
   z-index: 1;
   box-sizing: border-box;
-  
 }
 
 h1 {
   padding: 165px 50px 0px 50px;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  
 }
 
 .h1__left {
   display: block;
   text-align: left;
   margin-bottom: 20px;
+  line-height: 107%;
 }
 
 .h1__center {
   display: block;
   text-align: center;
+  margin-left: 30px;
   margin-bottom: 20px;
+  line-height: 124%;
 }
 
 .h1__right {
   display: block;
   text-align: end;
+  line-height: 110%;
 }
 
 .h1__right-simbol {
@@ -91,7 +97,7 @@ h1 {
 }
 
 .description {
-  margin-top: 106px;
+  margin-top: 108px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -100,7 +106,7 @@ h1 {
 
 .description__text {
   font-size: 22px;
-  word-spacing: 18px;
+  word-spacing: 19px;
 }
 
 .description__button {
@@ -110,8 +116,9 @@ h1 {
   text-align: center;
   color: #fff;
   background: none;
-  padding: 12px 31px;
+  padding: 12px 32px;
   border: 1px solid white;
+  font-family: Raleway, sans-serif;
 }
 
 /* End style cover */
@@ -173,20 +180,19 @@ h1 {
 }
 
 .card_type_film {
-  background: url(/images/card-lot-01.jpg);
+  background: url("../images/card-lot-01.jpg");
   background-size: cover;
   background-position: center;
-  
 }
 
 .card_type_book {
-  background: url(/images/card-lot-02.jpg);
+  background: url("../images/card-lot-02.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .card_type_picture {
-  background: url(/images/card-lot-03.jpg);
+  background: url("../images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -258,7 +264,6 @@ footer {
 
 .footer__menu {
   text-underline-offset: 4px;
-
 }
 
 .footer__links-list {
