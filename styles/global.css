@@ -33,6 +33,45 @@ img {
   width: 100%;
 }
 
-button {
-  font: inherit;
+.header {
+  margin-top: 92px;
+  padding: 0 50px;
 }
+
+.cover {
+  background: url(/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 96px;
+}
+
+.lots {
+  margin-top: 180px;
+  padding: 0 24px;
+}
+
+.about {
+  margin-top: 120px;
+  padding: 0 24px;
+}
+
+.footer {
+  margin: 180px 0 82px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+
+
+
