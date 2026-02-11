@@ -1,1 +1,1 @@
-https://github.com/TestyToneTeaTone/ono-tebe-nado/tree/main
+https://github.com/TestyToneTeaTone/ono-tebe-nado-fd
